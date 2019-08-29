@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+
+<div name="myDiv" ng-app="myApp" ng-controller="myController" >
+    <p>Select a task:</p>
+
+    <select ng-model="selectedTask" ng-options="x.model for x in tasks">
+    </select>
+    
+    <h1>You selected: {{selectedTask.model}}</h1>
+
+</div>
+
+<script src="file:///C:/Users/bilge.kurtoglu/Documents/egitim/angularjs_tutorial/tasklist/home.js">
+
+   
+        
+    
+</script>
+
+</body>
+</html>
